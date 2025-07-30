@@ -1,0 +1,91 @@
+.hero {
+    min-height: 100vh;
+    background-image: url('/assets/img/hero-section.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 15vh;
+
+
+    .hero_elements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        gap: 1.5rem;
+        min-height: 100%;
+
+        div {
+            gap: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .awards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 45vw;
+            height: auto;
+            border: 1px solid;
+
+
+
+        }
+
+        .logo {
+            width: 20vw;
+            height: auto;
+            border: 1px solid;
+        }
+
+        .platforms {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            gap: 1rem;
+            border: 1px solid;
+
+            p {
+                color: white;
+            }
+
+            ul {
+                width: 25%;
+            }
+
+            img {
+                width: 40px;
+            }
+        }
+    }
+
+    .follow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        p {
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        ul {
+            width: 20%;
+
+            img {
+                width: 25px;
+            }
+        }
+    }
+
+}
